@@ -37,3 +37,50 @@ ul {
     padding: 0px;
     gap: 15px;
 }
+
+.signup {
+    border:2px solid red;
+    background-color: #1F2937;
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.hero {
+    border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+}
+
+button {
+    border:2px solid red;
+    background-color: lightskyblue;
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 100px;
+}
+
+.imgbox {
+    border:2px solid green;
+
+}
+
+/*why isnt the image box filling up the whole way*/
+img {
+    border:2px solid red;
+    background-color: gray;
+    height: 100px;
+    width: 200px;
+}
