@@ -1,5 +1,4 @@
 body {
-    border:2px solid black;
     font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -84,7 +83,6 @@ button {
     but the padding can be in the container class. 
     I don't really notice any changes from it being there
     whats it doing and why?*/
-    border: 2px dotted aqua;
     padding: 250px;
     padding-top: 0;
 }
@@ -93,4 +91,31 @@ button {
     display: flex;
     gap: 20px;
 }
-/* how do I get this signup section to be in line with the logo and navbar sections?*/
+
+.title { /*some random information header*/
+    display: flex;
+    justify-content: center;
+}
+
+.boxcontainer { /*container for boxes and text*/
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.bluebox { /*actual blue box*/
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 8px;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+    flex-shrink: 0; /*so boxes wont collapse*/
+
+}
+
+.boxes { /*I had this as flex before and a column but it's because my HTML was off and I wasn't thinking of this as a flex item*/
+    flex-basis: 0; /*defines width its content. forces text to wrap*/
+}
+
+
