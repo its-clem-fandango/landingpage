@@ -54,11 +54,11 @@ p {
 }
 
 button {
-    background-color: rgb(0, 110, 255);
+    background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
     width: 100px;
-    border:  rgb(0, 110, 255);
+    border: #3882f6;
     border-radius: 8px;
     padding: 2px;
 
@@ -115,7 +115,28 @@ button {
 }
 
 .boxes { /*I had this as flex before and a column but it's because my HTML was off and I wasn't thinking of this as a flex item*/
-    flex-basis: 0; /*defines width its content. forces text to wrap*/
+    flex-basis: 0; /*defines width its content. forces text to wrap. It's the actual HTML structure that puts the text below the box*/
 }
 
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote {
+    max-width: 685px;
+}
+
+.italics {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
