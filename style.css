@@ -1,5 +1,5 @@
 body {
-    font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100vh;
     box-sizing: border-box;
@@ -53,15 +53,15 @@ p {
     color: #e5e7eb;
 }
 
-button {
+/*button*/
+.hero {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
     width: 100px;
-    border: #3882f6;
     border-radius: 8px;
+    border: #3882f6;
     padding: 2px;
-
 }
 
 .img {
@@ -87,7 +87,7 @@ button {
     padding-top: 0;
 }
 
-.signup {
+.signup { /*all written content in hero section*/
     display: flex;
     gap: 20px;
 }
@@ -95,6 +95,9 @@ button {
 .title { /*some random information header*/
     display: flex;
     justify-content: center;
+    font-size: 26px;
+    font-weight: 1000;
+    color: #1F2937;
 }
 
 .boxcontainer { /*container for boxes and text*/
@@ -139,4 +142,43 @@ button {
     display: flex;
     justify-content: flex-end;
     padding: 15px;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    color: #e5e7eb;
+}
+
+.CTAbox {
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.thecontent {
+    display: flex;
+    gap: 30px;
+    
+}
+
+/*second button color*/
+.c2a {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
